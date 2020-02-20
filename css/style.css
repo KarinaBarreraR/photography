@@ -23,7 +23,7 @@ body.fh5co-overflow {
 body:before, body:after {
   content: "";
   position: fixed;
-  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  background: linear-gradient(to left, #108dc7, #ef8e38);;
   left: 0;
   right: 0;
   height: 20px;
@@ -44,8 +44,8 @@ body:after {
 }
 
 body {
-  border-left: 20px solid #12c2e9;
-  border-right: 20px solid #f64f59;
+  border-left: 20px solid #108dc7;
+  border-right: 20px solid #ef8e38;
 }
 @media screen and (max-width: 768px) {
   body {
@@ -56,28 +56,28 @@ body {
 
 ::-webkit-selection {
   color: #fff;
-  background: #c471ed;
+  background: #ef8e38;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #c471ed;
+  background: #ef8e38;
 }
 
 ::selection {
   color: #fff;
-  background: #c471ed;
+  background: #ef8e38;
 }
 
 a {
-  color: #c471ed;
+  color: #ef8e38;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  color: #c471ed;
+  color: #ef8e38;
 }
 a:hover, a:focus, a:active {
-  color: #c471ed;
+  color: #ef8e38;
   outline: none;
   text-decoration: none;
 }
@@ -121,21 +121,21 @@ p {
 }
 
 .btn-primary {
-  background: #c471ed;
+  background: #ef8e38;
   color: #fff;
-  border: 2px solid #c471ed;
+  border: 2px solid #ef8e38;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #c471ed !important;
-  border-color: #c471ed !important;
+  background: #ef8e38 !important;
+  border-color: #ef8e38 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #c471ed;
-  border: 2px solid #c471ed;
+  color: #ef8e38;
+  border: 2px solid #ef8e38;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #c471ed;
+  background: #ef8e38;
   color: #fff;
 }
 
@@ -240,7 +240,7 @@ p {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #c471ed;
+  border-color: #ef8e38;
 }
 
 #kbarrera-logo {
@@ -512,7 +512,7 @@ p {
 .kbarrera-social li a {
   font-size: 40px;
   padding: 4px;
-  color: #c471ed;
+  color: #ef8e38;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
