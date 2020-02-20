@@ -44,8 +44,8 @@ body:after {
 }
 
 body {
-  border-left: 20px solid #108dc7;
-  border-right: 20px solid #ef8e38;
+  border-left: 20px solid #ef8e38;
+  border-right: 20px solid #108dc7;
 }
 @media screen and (max-width: 768px) {
   body {
